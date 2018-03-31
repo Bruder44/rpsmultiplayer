@@ -374,7 +374,7 @@ firebase.initializeApp(config);
   });
   
 
-  
+// 379-444 are Copied from Stack Overflow and edited to fit my logic 
 // Firebase connection listener
   connectedRef.on("value", function(snap) {
       if(snap.val()) {
